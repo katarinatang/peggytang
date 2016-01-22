@@ -10,8 +10,8 @@
 
 	<header id="header" class="header">
 		<div class="container">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header__logo"><?php blog_info('name'); ?></a>
-			
+<!-- 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="header__logo"></a>
+ -->			
 			<?php 
 			wp_nav_menu( array(
 				'container'      => '',
@@ -21,12 +21,12 @@
 				'link_after'     => '',
 			) ); ?>
 
-			<button type="button" role="button" aria-label="Toggle Navigation" id="header__toggle" class="header__toggle">
-	      <span class="lines"></span>
+<!-- 			<button type="button" role="button" aria-label="Toggle Navigation" id="header__toggle" class="header__toggle">
+ -->	      <span class="lines"></span>
 	    </button>
 		</div>
 
 	</header>
 
 
-	<div id="app">
+	<div id="app"> 

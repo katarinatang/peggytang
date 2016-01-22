@@ -648,7 +648,7 @@ body {
   margin: 0;
   height: 100%;
   overflow-x: hidden;
-  background-color: red;
+  background-color: whitesmoke;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
