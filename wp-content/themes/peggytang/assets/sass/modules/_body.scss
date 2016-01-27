@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: #fff;
+  background-color: whitesmoke;
   font-family: $font-default;
   font-weight:normal;
   color: #000;
@@ -16,13 +16,14 @@ body {
   height: 100%;
   overflow-x: hidden;
 
-  background-color: whitesmoke;
-
   -moz-osx-font-smoothing: grayscale; 
    -webkit-font-smoothing: antialiased;
            font-smoothing: antialiased;
 }
 
+.hero {
+  background-image: url();
+}
 /**
  * Anchor
  */
@@ -47,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1, %h1 {
-
+  font-family: 'Meddon', cursive;
 }
 
 h2, .h2, %h2 {

@@ -5,6 +5,7 @@
  */
 @import url(../../components/font-awesome/css/font-awesome.min.css);
 @import url(../../components/animate/animate.min.css);
+@import url(https://fonts.googleapis.com/css?family=Meddon|Open+Sans:400,300);
 /**
  * Functions & Mixins 
  */
@@ -641,17 +642,20 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: whitesmoke;
   font-family: "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #000;
   margin: 0;
   height: 100%;
   overflow-x: hidden;
-  background-color: whitesmoke;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
+}
+
+.hero {
+  background-image: url();
 }
 
 /**
@@ -673,6 +677,10 @@ a {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
   margin: 1rem 0;
+}
+
+h1, .h1 {
+  font-family: 'Meddon', cursive;
 }
 
 /**
@@ -721,6 +729,11 @@ figure {
 table td, table th {
   border: none;
   padding: 10px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 15px;
 }
 
 /**
@@ -838,6 +851,20 @@ table td, table th {
 .responsive-img {
   width: 100%;
   height: auto;
+}
+
+.footer {
+  padding: 50px;
+  background-color: #e1e1e1;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+}
+
+.social-menu li {
+  display: inline-block;
+  padding: 15px;
+  font-size: 2em;
+  color: #bf0000;
 }
 
 /**

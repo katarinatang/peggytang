@@ -122,3 +122,16 @@ function startertheme_init() {
 
 }
 add_action( 'init', 'startertheme_init' );
+
+
+function post_type_work() {
+    $args = array(
+      'public'      => true,
+      'has_archive' => true,
+      'rewrite'     => array('slug' => 'work'),
+      'supports'    => array('title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+      'label'       => 'Work'
+      );
+    register_post_type( 'work', $args );
+}
+add_action( 'init', 'post_type_work' );

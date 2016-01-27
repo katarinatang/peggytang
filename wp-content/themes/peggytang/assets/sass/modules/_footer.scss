@@ -1,1 +1,24 @@
 // _footer.scss
+// 
+
+.footer {
+  padding: 50px;
+  background-color: $color-gray-light;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+}
+
+.social-menu {
+  li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 2em;
+    color: $color-red;
+  }
+}
+
+@include media(767px) {
+  .footer {
+
+  }
+}
