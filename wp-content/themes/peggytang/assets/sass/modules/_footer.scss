@@ -2,19 +2,27 @@
 // 
 
 .footer {
-  padding: 50px;
-  background-color: $color-gray-light;
+  padding: 30px;
+  background-color: #fff;
   font-family: "Open Sans", sans-serif;
-  margin-top: 50px;
 }
 
 .social-menu {
+  text-align: center;
+
   li {
     display: inline-block;
-    padding: 15px;
-    font-size: 2em;
+    padding-right: 25px;
+    font-size: 2.75em;
     color: $color-red;
+
+    :hover {
+    color: darken($color-red, 6);
+    }
   }
+  
+  -webkit-mask-image: url(http://f.cl.ly/items/131E0X1b1i0X1s263R00/a.png);
+  
 }
 
 @include media(767px) {

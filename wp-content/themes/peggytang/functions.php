@@ -98,10 +98,11 @@ function startertheme_enqueue_scripts() {
 	// wp_enqueue_style(  'animate', $component_path . 'animate.css/animate.min.css', STARTERTHEME_VERSION, true );
 
 	// Enqueue Styles
-	wp_enqueue_style( 'style', $css_path . 'style.min.css', STARTERTHEME_VERSION, true );
+	wp_enqueue_style( 'style', $css_path . 'style.min.css', STARTERTHEME_VERSION, true ); 
 
 	wp_enqueue_script( 'jquery' );
 
+	// wp_enqueue_script( 'googlefonts', 'https://fonts.googleapis.com/css?family=Meddon|Open+Sans:400,300'); // check with Tracy
 	// Enqueue Scripts
 	// wp_enqueue_script( 'wow', $component_path . 'wowjs/dist/wow.min.js', STARTERTHEME_VERSION, true );
 	wp_enqueue_script( 'app', $js_path . 'app.js', STARTERTHEME_VERSION, true );

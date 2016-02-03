@@ -9,11 +9,12 @@
           'link_after'     => '',
         ) );
       ?>
+   
+  
       <ul class="social-menu social-menu--footer col-3">
         <li class="social-menu__item"><a class="fa fa-instagram" href=""></a></li>
         <li class="social-menu__item"><a class="fa fa-pinterest" href=""></a></li>
         <li class="social-menu__item"><a class="fa fa-facebook-square" href=""></a></li>
-        
       </ul>
     </div>
   </footer>

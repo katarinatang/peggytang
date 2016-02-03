@@ -1,1 +1,19 @@
 // _header.scss
+
+.header {
+  font-size: 1.5em;
+  // background: $color-gray-light;
+  color: $color-red;
+  font-weight: bold;
+  // font-family: 'Open Sans', sans-serif;
+  text-align: right;
+  // padding: 10px;
+
+}
+
+.container #stamp {
+  -webkit-mask-image: url(http://f.cl.ly/items/131E0X1b1i0X1s263R00/a.png);
+  :hover {
+    color: darken($color-red, 10);
+  }
+}  
